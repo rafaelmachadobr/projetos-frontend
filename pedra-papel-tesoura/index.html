@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -17,13 +18,13 @@
         <p>Você: <span id="usuario_pontuacao">0</span></p>
       </div>
       <div class="escolhas">
-        <button onclick="checker('pedra')">
+        <button onclick="verificar('pedra')">
           <i class="far fa-hand-rock"></i>
         </button>
-        <button onclick="checker('papel')">
+        <button onclick="verificar('papel')">
           <i class="far fa-hand-paper"></i>
         </button>
-        <button onclick="checker('tesoura')">
+        <button onclick="verificar('tesoura')">
           <i class="far fa-hand-scissors"></i>
         </button>
         <div class="detalhes">
