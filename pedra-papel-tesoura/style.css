@@ -64,3 +64,21 @@ body {
 span {
   font-weight: 600;
 }
+
+@media screen and (max-width: 900px) {
+  .escolhas {
+    flex-direction: column;
+  }
+  .escolhas button {
+    margin: 10px auto;
+  }
+  #resultado {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 10px 5px;
+  }
+}
