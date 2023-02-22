@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encurtador de URL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Encurtador de URL</h1>
+        <form id="form">
+          <input
+            type="url"
+            id="url"
+            name="url"
+            placeholder="Cole sua URL aqui"
+          />
+          <button id="shorten" type="submit">Encurtar</button>
+        </form>
+        <div id="result">
+          <span id="long-link">https://github.com/rafaelmachadobr</span>
+          <div id="left">
+            <span id="short-link">
+              <a href="https://bit.ly/3XQMm37" target="_blank"
+                >https://bit.ly/3XQMm37</a
+              >
+            </span>
+            <button id="copy" onclick="copyToClipboard()">Copiar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
