@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrapper {
+  position: absolute;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.container {
+  padding: 50px 30px 80px;
+  border-radius: 8px;
+  box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+  background-color: #6c63ff;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+input {
+  width: 77.5%;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #d3d4d7;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+#shorten {
+  width: 20%;
+  height: 60px;
+  background-color: #2419fa;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#result {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 60px;
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 18px;
+  align-items: center;
+}
+#shorten:hover {
+  background-color: #1c1393;
+}
+#left {
+  display: flex;
+  align-items: center;
+}
+#long-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 500px;
+}
+#short-link a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #0236b9;
+}
+#copy {
+  padding: 10px;
+  background-color: #edf2fe;
+  color: #2a5bd7;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#copy:hover {
+  background-color: #d3d4d7;
+}
+.success {
+  background-color: #649949;
+  color: #fff;
+}
+@media screen and (max-width: 990px) {
+  form {
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  #shorten {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #result {
+    flex-direction: column;
+    height: 100%;
+  }
+  #long-link {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  #left {
+    flex-direction: column;
+  }
+  #copy {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
