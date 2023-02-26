@@ -4,12 +4,12 @@
 
 body {
   margin: 0;
-  background-color: #cd094c;
+  background-color: #f7f7f7;
   font-family: sans-serif;
 }
 
 header {
-  background-color: #0615de;
+  background-color: #007bff;
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
@@ -17,32 +17,28 @@ header {
 
 .search {
   padding: 0.5rem 1rem;
-  border-radius: 50px;
-  border: 2px solid #22254b;
-  background-color: transparent;
-  color: #eee;
-  font-size: 1rem;
-}
-
-.search::placeholder {
-  color: #afb2dc;
+  border-radius: 30px;
+  height: 46px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
 }
 
 .search:focus {
   outline: none;
-  background-color: #05082c;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   width: 300px;
-  background-color: #0d1dd2;
+  background-color: #007bff;
   margin: 1rem;
   overflow: hidden;
   position: relative;
