@@ -13,15 +13,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  background: #abdcf0;
+  background: #094760;
 }
 h1 {
   text-transform: uppercase;
+  color: #999;
 }
 .contagem {
   font-size: 8rem;
   font-weight: bold;
-  color: #333;
+  color: #92c3e4;
 }
 button {
   color: #fff;
